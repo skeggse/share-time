@@ -1,6 +1,6 @@
 {
   "name": "share-time",
-  "version": "1.0.0",
+  "version": "1.0.0-1",
   "author": "Eli Skeggs <skeggse@gmail.com>",
   "description": "share time with other event-loop tasks",
   "main": "./lib/share",
@@ -27,8 +27,8 @@
     "tick"
   ],
   "devDependencies": {
-    "chai": "^1.9.1",
-    "mocha": "^1.21.3"
+    "chai": "~1.9.1",
+    "mocha": "~1.21.3"
   },
   "licenses": [
     {
@@ -37,6 +37,6 @@
     }
   ],
   "engines": {
-    "node": "*"
+    "node": ">= 0.6.0"
   }
 }
