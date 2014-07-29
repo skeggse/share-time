@@ -1,0 +1,42 @@
+{
+  "name": "share-time",
+  "version": "1.0.0",
+  "author": "Eli Skeggs <skeggse@gmail.com>",
+  "description": "share time with other event-loop tasks",
+  "main": "./lib/share",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skeggse/share-time.git"
+  },
+  "homepage": "https://github.com/skeggse/share-time",
+  "bugs": "https://github.com/skeggse/share-time/issues",
+  "keywords": [
+    "time",
+    "share",
+    "time share",
+    "share-time",
+    "event",
+    "event loop",
+    "event-loop",
+    "distribute",
+    "balance",
+    "defer",
+    "tick"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.3"
+  },
+  "licenses": [
+    {
+      "type": "unlicense",
+      "url": "https://github.com/skeggse/slurp/blob/master/UNLICENSE"
+    }
+  ],
+  "engines": {
+    "node": "*"
+  }
+}
